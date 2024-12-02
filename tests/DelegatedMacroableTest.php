@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Sheet;
-use Maatwebsite\Excel\Writer;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\RegistersEventListeners;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\BeforeExport;
+use VioletWaves\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Sheet;
+use VioletWaves\Excel\Writer;
 use PhpOffice\PhpSpreadsheet\Document\Properties;
 
 class DelegatedMacroableTest extends TestCase

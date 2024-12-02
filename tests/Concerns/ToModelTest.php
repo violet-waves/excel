@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Faker\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\PersistRelations;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\PersistRelations;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\Group;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\TestCase;
 
 class ToModelTest extends TestCase
 {

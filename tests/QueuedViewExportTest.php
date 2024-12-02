@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromViewExportWithMultipleSheets;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetForUsersFromView;
+use VioletWaves\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\Data\Stubs\FromViewExportWithMultipleSheets;
+use VioletWaves\Excel\Tests\Data\Stubs\SheetForUsersFromView;
 
 class QueuedViewExportTest extends TestCase
 {

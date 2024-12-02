@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\ToCollection;
+use VioletWaves\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class ToCollectionTest extends TestCase

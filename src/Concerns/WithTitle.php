@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace VioletWaves\Excel\Concerns;
 
 interface WithTitle
 {

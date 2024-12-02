@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Builder;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterChunk;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\WithCustomChunkSize;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\AfterChunk;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
 use PHPUnit\Framework\Assert;
 
 class ExportWithEventsChunks implements WithEvents, FromQuery, ShouldQueue, WithCustomChunkSize

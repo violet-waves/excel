@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace VioletWaves\Excel\Imports;
 
-use Maatwebsite\Excel\Concerns\WithColumnLimit;
-use Maatwebsite\Excel\Concerns\WithGroupedHeadingRow;
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use Maatwebsite\Excel\Concerns\WithStartRow;
-use Maatwebsite\Excel\Row;
+use VioletWaves\Excel\Concerns\WithColumnLimit;
+use VioletWaves\Excel\Concerns\WithGroupedHeadingRow;
+use VioletWaves\Excel\Concerns\WithHeadingRow;
+use VioletWaves\Excel\Concerns\WithStartRow;
+use VioletWaves\Excel\Row;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 class HeadingRowExtractor

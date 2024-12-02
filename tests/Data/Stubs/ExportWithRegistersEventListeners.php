@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
-use Maatwebsite\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\RegistersEventListeners;
+use VioletWaves\Excel\Concerns\WithEvents;
 
 class ExportWithRegistersEventListeners implements WithEvents
 {

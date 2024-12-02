@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Filters;
+namespace VioletWaves\Excel\Filters;
 
 use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 

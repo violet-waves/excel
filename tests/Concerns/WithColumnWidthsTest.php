@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromArray;
-use Maatwebsite\Excel\Concerns\WithColumnWidths;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromArray;
+use VioletWaves\Excel\Concerns\WithColumnWidths;
+use VioletWaves\Excel\Tests\TestCase;
 
 class WithColumnWidthsTest extends TestCase
 {

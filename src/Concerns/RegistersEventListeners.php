@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace VioletWaves\Excel\Concerns;
 
-use Maatwebsite\Excel\Events\AfterBatch;
-use Maatwebsite\Excel\Events\AfterChunk;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Events\ImportFailed;
+use VioletWaves\Excel\Events\AfterBatch;
+use VioletWaves\Excel\Events\AfterChunk;
+use VioletWaves\Excel\Events\AfterImport;
+use VioletWaves\Excel\Events\AfterSheet;
+use VioletWaves\Excel\Events\BeforeExport;
+use VioletWaves\Excel\Events\BeforeImport;
+use VioletWaves\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Events\BeforeWriting;
+use VioletWaves\Excel\Events\ImportFailed;
 
 trait RegistersEventListeners
 {

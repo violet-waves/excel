@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithLimit;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithStartRow;
-use Maatwebsite\Excel\Imports\HeadingRowFormatter;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\WithLimit;
+use VioletWaves\Excel\Concerns\WithMapping;
+use VioletWaves\Excel\Concerns\WithStartRow;
+use VioletWaves\Excel\Imports\HeadingRowFormatter;
 
 class HeadingRowImport implements WithStartRow, WithLimit, WithMapping
 {

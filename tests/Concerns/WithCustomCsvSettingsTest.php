@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\HeadingRowImport;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\FromCollection;
+use VioletWaves\Excel\Concerns\ToArray;
+use VioletWaves\Excel\Concerns\WithCustomCsvSettings;
+use VioletWaves\Excel\Excel;
+use VioletWaves\Excel\HeadingRowImport;
+use VioletWaves\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class WithCustomCsvSettingsTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Excel;
+use VioletWaves\Excel\Excel;
 use PhpOffice\PhpSpreadsheet\Reader\Csv;
 
 return [
@@ -161,8 +161,8 @@ return [
        */
         'cells'        => [
             'middleware' => [
-                //\Maatwebsite\Excel\Middleware\TrimCellValue::class,
-                //\Maatwebsite\Excel\Middleware\ConvertEmptyCellValuesToNull::class,
+                //\VioletWaves\Excel\Middleware\TrimCellValue::class,
+                //\VioletWaves\Excel\Middleware\ConvertEmptyCellValuesToNull::class,
             ],
         ],
 
@@ -218,13 +218,13 @@ return [
     |
     | Possible value binders:
     |
-    | [x] Maatwebsite\Excel\DefaultValueBinder::class
+    | [x] VioletWaves\Excel\DefaultValueBinder::class
     | [x] PhpOffice\PhpSpreadsheet\Cell\StringValueBinder::class
     | [x] PhpOffice\PhpSpreadsheet\Cell\AdvancedValueBinder::class
     |
     */
     'value_binder'       => [
-        'default' => Maatwebsite\Excel\DefaultValueBinder::class,
+        'default' => VioletWaves\Excel\DefaultValueBinder::class,
     ],
 
     'cache'        => [

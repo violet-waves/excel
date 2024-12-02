@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Mixins;
+namespace VioletWaves\Excel\Tests\Mixins;
 
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\TestCase;
 
 class ImportAsMacroTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use VioletWaves\Excel\Transactions\TransactionHandler;
 
 class CustomTransactionHandler implements TransactionHandler
 {

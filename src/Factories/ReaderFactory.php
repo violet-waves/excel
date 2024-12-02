@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Factories;
+namespace VioletWaves\Excel\Factories;
 
-use Maatwebsite\Excel\Concerns\MapsCsvSettings;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Concerns\WithLimit;
-use Maatwebsite\Excel\Concerns\WithReadFilter;
-use Maatwebsite\Excel\Concerns\WithStartRow;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Filters\LimitFilter;
+use VioletWaves\Excel\Concerns\MapsCsvSettings;
+use VioletWaves\Excel\Concerns\WithCustomCsvSettings;
+use VioletWaves\Excel\Concerns\WithLimit;
+use VioletWaves\Excel\Concerns\WithReadFilter;
+use VioletWaves\Excel\Concerns\WithStartRow;
+use VioletWaves\Excel\Exceptions\NoTypeDetectedException;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Filters\LimitFilter;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Reader\Csv;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;

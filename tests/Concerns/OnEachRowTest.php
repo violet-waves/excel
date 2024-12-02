@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\OnEachRow;
-use Maatwebsite\Excel\Row;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\OnEachRow;
+use VioletWaves\Excel\Row;
+use VioletWaves\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class OnEachRowTest extends TestCase

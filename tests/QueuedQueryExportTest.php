@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
-use Maatwebsite\Excel\SettingsProvider;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExportWithMapping;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersScoutExport;
+use VioletWaves\Excel\SettingsProvider;
+use VioletWaves\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExport;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExportWithMapping;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersScoutExport;
 
 class QueuedQueryExportTest extends TestCase
 {

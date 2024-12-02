@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
 use Illuminate\Queue\InteractsWithQueue;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Jobs\AppendQueryToSheet;
-use Maatwebsite\Excel\Jobs\AppendViewToSheet;
-use Maatwebsite\Excel\Jobs\ReadChunk;
+use VioletWaves\Excel\Jobs\AppendDataToSheet;
+use VioletWaves\Excel\Jobs\AppendQueryToSheet;
+use VioletWaves\Excel\Jobs\AppendViewToSheet;
+use VioletWaves\Excel\Jobs\ReadChunk;
 
 class InteractsWithQueueTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Importer;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\ToArray;
+use VioletWaves\Excel\Excel;
+use VioletWaves\Excel\Importer;
+use VioletWaves\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class ImportableTest extends TestCase

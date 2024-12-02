@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
-use Maatwebsite\Excel\HeadingRowImport;
-use Maatwebsite\Excel\Imports\HeadingRowFormatter;
+use VioletWaves\Excel\HeadingRowImport;
+use VioletWaves\Excel\Imports\HeadingRowFormatter;
 
 class HeadingRowImportTest extends TestCase
 {

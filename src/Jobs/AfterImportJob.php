@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\HasEventBus;
-use Maatwebsite\Excel\Reader;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\ImportFailed;
+use VioletWaves\Excel\HasEventBus;
+use VioletWaves\Excel\Reader;
 use Throwable;
 
 class AfterImportJob implements ShouldQueue

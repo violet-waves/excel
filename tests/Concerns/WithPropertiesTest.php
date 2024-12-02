@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithProperties;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\WithProperties;
+use VioletWaves\Excel\Tests\TestCase;
 
 class WithPropertiesTest extends TestCase
 {

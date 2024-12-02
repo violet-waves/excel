@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace VioletWaves\Excel\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Validators\Failure;
+use VioletWaves\Excel\Validators\Failure;
 
 trait SkipsFailures
 {

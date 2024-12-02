@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\WithCustomChunkSize;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
 
 class FromUsersQueryExportWithPrepareRows implements FromQuery, WithCustomChunkSize
 {

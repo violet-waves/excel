@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Concerns\WithMapping;
+use VioletWaves\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
 
 class FromUsersQueryExportWithMapping implements FromQuery, WithMapping, WithEvents
 {

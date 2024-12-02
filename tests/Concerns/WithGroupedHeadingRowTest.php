@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\OnEachRow;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithGroupedHeadingRow;
-use Maatwebsite\Excel\Row;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\OnEachRow;
+use VioletWaves\Excel\Concerns\ToArray;
+use VioletWaves\Excel\Concerns\ToCollection;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithGroupedHeadingRow;
+use VioletWaves\Excel\Row;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 class WithGroupedHeadingRowTest extends TestCase
@@ -62,7 +62,7 @@ class WithGroupedHeadingRowTest extends TestCase
             use Importable;
 
             /**
-             * @param  \Maatwebsite\Excel\Row  $row
+             * @param  \VioletWaves\Excel\Row  $row
              * @return void
              */
             public function onRow(Row $row)

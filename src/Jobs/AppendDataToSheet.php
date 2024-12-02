@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\Middleware\LocalizeJob;
-use Maatwebsite\Excel\Writer;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Jobs\Middleware\LocalizeJob;
+use VioletWaves\Excel\Writer;
 
 class AppendDataToSheet implements ShouldQueue
 {

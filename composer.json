@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "violet-waves/excel",
   "description": "Supercharged Excel exports and imports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -34,21 +34,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Maatwebsite\\Excel\\": "src/"
+      "VioletWaves\\Excel\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Maatwebsite\\Excel\\Tests\\": "tests/"
+      "VioletWaves\\Excel\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Maatwebsite\\Excel\\ExcelServiceProvider"
+        "VioletWaves\\Excel\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+        "Excel": "VioletWaves\\Excel\\Facades\\Excel"
       }
     }
   },

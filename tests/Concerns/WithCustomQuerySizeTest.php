@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\Group;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
+use VioletWaves\Excel\Tests\TestCase;
 
 class WithCustomQuerySizeTest extends TestCase
 {

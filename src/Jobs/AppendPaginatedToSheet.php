@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -10,10 +10,10 @@ use Illuminate\Database\Query\Builder;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Laravel\Scout\Builder as ScoutBuilder;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\Middleware\LocalizeJob;
-use Maatwebsite\Excel\Writer;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Jobs\Middleware\LocalizeJob;
+use VioletWaves\Excel\Writer;
 
 class AppendPaginatedToSheet implements ShouldQueue
 {

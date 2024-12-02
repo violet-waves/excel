@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeWriting;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\AfterSheet;
+use VioletWaves\Excel\Events\BeforeExport;
+use VioletWaves\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Events\BeforeWriting;
 
 class ExportWithEvents implements WithEvents
 {

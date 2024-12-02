@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace VioletWaves\Excel\Concerns;
 
-use Maatwebsite\Excel\Row;
+use VioletWaves\Excel\Row;
 
 interface OnEachRow
 {

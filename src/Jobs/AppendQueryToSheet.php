@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterChunk;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\HasEventBus;
-use Maatwebsite\Excel\Jobs\Middleware\LocalizeJob;
-use Maatwebsite\Excel\Writer;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\AfterChunk;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\HasEventBus;
+use VioletWaves\Excel\Jobs\Middleware\LocalizeJob;
+use VioletWaves\Excel\Writer;
 
 class AppendQueryToSheet implements ShouldQueue
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Exceptions\NoSheetsFoundException;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\Middleware\LocalizeJob;
-use Maatwebsite\Excel\Writer;
+use VioletWaves\Excel\Concerns\WithMultipleSheets;
+use VioletWaves\Excel\Exceptions\NoSheetsFoundException;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Jobs\Middleware\LocalizeJob;
+use VioletWaves\Excel\Writer;
 use Throwable;
 
 class QueueExport implements ShouldQueue

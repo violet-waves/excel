@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
-use Maatwebsite\Excel\Cell;
-use Maatwebsite\Excel\Middleware\ConvertEmptyCellValuesToNull;
-use Maatwebsite\Excel\Middleware\TrimCellValue;
+use VioletWaves\Excel\Cell;
+use VioletWaves\Excel\Middleware\ConvertEmptyCellValuesToNull;
+use VioletWaves\Excel\Middleware\TrimCellValue;
 
 class CellTest extends TestCase
 {

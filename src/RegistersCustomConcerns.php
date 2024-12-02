@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Events\Event;
+use VioletWaves\Excel\Events\AfterSheet;
+use VioletWaves\Excel\Events\BeforeExport;
+use VioletWaves\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Events\BeforeWriting;
+use VioletWaves\Excel\Events\Event;
 
 trait RegistersCustomConcerns
 {

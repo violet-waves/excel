@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
-use Maatwebsite\Excel\Cache\CacheManager;
+use VioletWaves\Excel\Cache\CacheManager;
 use PhpOffice\PhpSpreadsheet\Settings;
 
 class SettingsProvider

@@ -195,8 +195,8 @@ Please view https://github.com/SpartnerNL/Laravel-Excel/releases for the most re
   method for your export class if needed.
 - Added an ability to set locale for queued export. Just implement
   `Illuminate\Contracts\Translation\HasLocalePreference` for your export.
-- Added `JsonSerializable` support in `Maatwebsite\Excel\Validators\Failure`.
-- Added `$maxExceptions` support in `Maatwebsite\Excel\Jobs\ReadChunk.php`.
+- Added `JsonSerializable` support in `VioletWaves\Excel\Validators\Failure`.
+- Added `$maxExceptions` support in `VioletWaves\Excel\Jobs\ReadChunk.php`.
 - Added support to upsert models by implementing the `WithUpserts` concern.
 
 ## [3.1.24] - 2020-10-28
@@ -274,34 +274,34 @@ Please view https://github.com/SpartnerNL/Laravel-Excel/releases for the most re
 - Raw() method now also available on Exportable.
 - Fix for breaking changes in PhpSpreadsheet with empty enclosures.
 
-[Unreleased]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.47...HEAD
-[3.1.47]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.46...3.1.47
-[3.1.46]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.45...3.1.46
-[3.1.45]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.44...3.1.45
-[3.1.44]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.43...3.1.44
-[3.1.43]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.42...3.1.43
-[3.1.42]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.41...3.1.42
-[3.1.41]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.40...3.1.41
-[3.1.40]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.39...3.1.40
-[3.1.39]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.38...3.1.39
-[3.1.38]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.37...3.1.38
-[3.1.37]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.36...3.1.37
-[3.1.36]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.35...3.1.36
-[3.1.35]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.34...3.1.35
-[3.1.34]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.33...3.1.34
-[3.1.33]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.32...3.1.33
-[3.1.32]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.31...3.1.32
-[3.1.31]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.30...3.1.31
-[3.1.30]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.29...3.1.30
-[3.1.29]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.28...3.1.29
-[3.1.28]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.27...3.1.28
-[3.1.27]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.26...3.1.27
-[3.1.26]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.25...3.1.26
-[3.1.25]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.24...3.1.25
-[3.1.24]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.23...3.1.24
-[3.1.23]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.22...3.1.23
-[3.1.22]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.21...3.1.22
-[3.1.21]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.20...3.1.21
-[3.1.20]: https://github.com/Maatwebsite/Laravel-Excel/compare/3.1.19...3.1.20
+[Unreleased]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.47...HEAD
+[3.1.47]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.46...3.1.47
+[3.1.46]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.45...3.1.46
+[3.1.45]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.44...3.1.45
+[3.1.44]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.43...3.1.44
+[3.1.43]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.42...3.1.43
+[3.1.42]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.41...3.1.42
+[3.1.41]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.40...3.1.41
+[3.1.40]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.39...3.1.40
+[3.1.39]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.38...3.1.39
+[3.1.38]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.37...3.1.38
+[3.1.37]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.36...3.1.37
+[3.1.36]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.35...3.1.36
+[3.1.35]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.34...3.1.35
+[3.1.34]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.33...3.1.34
+[3.1.33]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.32...3.1.33
+[3.1.32]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.31...3.1.32
+[3.1.31]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.30...3.1.31
+[3.1.30]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.29...3.1.30
+[3.1.29]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.28...3.1.29
+[3.1.28]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.27...3.1.28
+[3.1.27]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.26...3.1.27
+[3.1.26]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.25...3.1.26
+[3.1.25]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.24...3.1.25
+[3.1.24]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.23...3.1.24
+[3.1.23]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.22...3.1.23
+[3.1.22]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.21...3.1.22
+[3.1.21]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.20...3.1.21
+[3.1.20]: https://github.com/violet-waves/Laravel-Excel/compare/3.1.19...3.1.20
 
 _Older release notes can be found in Github releases._

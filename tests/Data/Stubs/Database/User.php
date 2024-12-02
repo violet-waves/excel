@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs\Database;
+namespace VioletWaves\Excel\Tests\Data\Stubs\Database;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -9,8 +9,8 @@ use Laravel\Scout\Engines\DatabaseEngine;
 use Laravel\Scout\Engines\Engine;
 use Laravel\Scout\Engines\NullEngine;
 use Laravel\Scout\Searchable;
-use Maatwebsite\Excel\Tests\Concerns\FromQueryTest;
-use Maatwebsite\Excel\Tests\QueuedQueryExportTest;
+use VioletWaves\Excel\Tests\Concerns\FromQueryTest;
+use VioletWaves\Excel\Tests\QueuedQueryExportTest;
 
 class User extends Model
 {

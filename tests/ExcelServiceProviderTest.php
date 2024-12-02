@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
 use Composer\InstalledVersions;
 use Composer\Semver\VersionParser;
 use Illuminate\Contracts\Console\Kernel;
-use Maatwebsite\Excel\Cache\MemoryCache;
-use Maatwebsite\Excel\Cache\MemoryCacheDeprecated;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Tests\Data\Stubs\CustomTransactionHandler;
-use Maatwebsite\Excel\Transactions\TransactionManager;
+use VioletWaves\Excel\Cache\MemoryCache;
+use VioletWaves\Excel\Cache\MemoryCacheDeprecated;
+use VioletWaves\Excel\Excel;
+use VioletWaves\Excel\Tests\Data\Stubs\CustomTransactionHandler;
+use VioletWaves\Excel\Transactions\TransactionManager;
 use PhpOffice\PhpSpreadsheet\Settings;
 
 class ExcelServiceProviderTest extends TestCase

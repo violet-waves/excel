@@ -1,27 +1,27 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Collection;
 use InvalidArgumentException;
-use Maatwebsite\Excel\Concerns\HasReferencesToOtherSheets;
-use Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithFormatData;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
-use Maatwebsite\Excel\Exceptions\SheetNotFoundException;
-use Maatwebsite\Excel\Factories\ReaderFactory;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use VioletWaves\Excel\Concerns\HasReferencesToOtherSheets;
+use VioletWaves\Excel\Concerns\SkipsUnknownSheets;
+use VioletWaves\Excel\Concerns\WithCalculatedFormulas;
+use VioletWaves\Excel\Concerns\WithChunkReading;
+use VioletWaves\Excel\Concerns\WithCustomValueBinder;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Concerns\WithFormatData;
+use VioletWaves\Excel\Concerns\WithMultipleSheets;
+use VioletWaves\Excel\Events\AfterImport;
+use VioletWaves\Excel\Events\BeforeImport;
+use VioletWaves\Excel\Events\ImportFailed;
+use VioletWaves\Excel\Exceptions\NoTypeDetectedException;
+use VioletWaves\Excel\Exceptions\SheetNotFoundException;
+use VioletWaves\Excel\Factories\ReaderFactory;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Files\TemporaryFileFactory;
+use VioletWaves\Excel\Transactions\TransactionHandler;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;

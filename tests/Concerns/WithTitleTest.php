@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithTitle;
-use Maatwebsite\Excel\Tests\Data\Stubs\WithTitleExport;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\WithMultipleSheets;
+use VioletWaves\Excel\Concerns\WithTitle;
+use VioletWaves\Excel\Tests\Data\Stubs\WithTitleExport;
+use VioletWaves\Excel\Tests\TestCase;
 
 class WithTitleTest extends TestCase
 {

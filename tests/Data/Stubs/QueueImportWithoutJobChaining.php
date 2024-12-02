@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ShouldQueueWithoutChain;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Reader;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\ShouldQueueWithoutChain;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithChunkReading;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\AfterImport;
+use VioletWaves\Excel\Events\BeforeImport;
+use VioletWaves\Excel\Reader;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
 use PHPUnit\Framework\Assert;
 
 class QueueImportWithoutJobChaining implements ToModel, WithChunkReading, WithEvents, ShouldQueueWithoutChain

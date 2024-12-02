@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Files;
+namespace VioletWaves\Excel\Files;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Helpers;
+namespace VioletWaves\Excel\Helpers;
 
 class ArrayHelper
 {

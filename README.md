@@ -32,23 +32,23 @@ exports and imports.
 
 <p align="center">
   <a href="https://github.com/SpartnerNL/Laravel-Excel/actions">
-    <img src="https://github.com/Maatwebsite/Laravel-Excel/workflows/Run%20tests/badge.svg?branch=3.1" alt="Github Actions">
+    <img src="https://github.com/violet-waves/Laravel-Excel/workflows/Run%20tests/badge.svg?branch=3.1" alt="Github Actions">
   </a>
 
   <a href="https://styleci.io/repos/14259390">
     <img src="https://styleci.io/repos/14259390/shield?branch=3.1" alt="StyleCI">
   </a>
 
-   <a href="https://packagist.org/packages/maatwebsite/excel">
-      <img src="https://poser.pugx.org/maatwebsite/excel/v/stable.png" alt="Latest Stable Version">
+   <a href="https://packagist.org/packages/violet-waves/excel">
+      <img src="https://poser.pugx.org/violet-waves/excel/v/stable.png" alt="Latest Stable Version">
   </a>
 
-  <a href="https://packagist.org/packages/maatwebsite/excel">
-      <img src="https://poser.pugx.org/maatwebsite/excel/downloads.png" alt="Total Downloads">
+  <a href="https://packagist.org/packages/violet-waves/excel">
+      <img src="https://poser.pugx.org/violet-waves/excel/downloads.png" alt="Total Downloads">
   </a>
 
-  <a href="https://packagist.org/packages/maatwebsite/excel">
-    <img src="https://poser.pugx.org/maatwebsite/excel/license.png" alt="License">
+  <a href="https://packagist.org/packages/violet-waves/excel">
+    <img src="https://poser.pugx.org/violet-waves/excel/license.png" alt="License">
   </a>
 </p>
 
@@ -77,7 +77,7 @@ Some articles and tutorials can be found on our blog: https://medium.com/maatweb
 
 ![1_5nblgs68uarg0wxxejozdq](https://user-images.githubusercontent.com/7728097/53638144-9e5f1a00-3c25-11e9-9f4a-fc71c9d94562.jpg)
 
-Laravel Excel is created with love and care by Spartner (formerly known as Maatwebsite) to give back to the Laravel community. It is completely free (MIT license) to use, however the package is licensed as Postcardware. This means that if it makes it to your production environment, we would very much appreciate receiving a postcard from your hometown.
+Laravel Excel is created with love and care by Spartner (formerly known as VioletWaves) to give back to the Laravel community. It is completely free (MIT license) to use, however the package is licensed as Postcardware. This means that if it makes it to your production environment, we would very much appreciate receiving a postcard from your hometown.
 
 **Spartner**
 Markt 2
@@ -86,7 +86,7 @@ The Netherlands.
 
 More about the license can be found at: [https://docs.laravel-excel.com/3.1/getting-started/license.html](https://docs.laravel-excel.com/3.1/getting-started/license.html)
 
-## Created by Spartner (formerly Maatwebsite)
+## Created by Spartner (formerly VioletWaves)
 
 We are a strategic development partner, creating web-based custom built software from Laravel. In need of a digital solution for your challenge? Give us a call.
 

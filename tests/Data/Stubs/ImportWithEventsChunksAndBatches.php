@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Events\AfterBatch;
-use Maatwebsite\Excel\Events\AfterChunk;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithBatchInserts;
+use VioletWaves\Excel\Concerns\WithChunkReading;
+use VioletWaves\Excel\Events\AfterBatch;
+use VioletWaves\Excel\Events\AfterChunk;
 
 class ImportWithEventsChunksAndBatches extends ImportWithEvents implements WithBatchInserts, ToModel, WithChunkReading
 {

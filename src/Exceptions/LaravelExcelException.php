@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Exceptions;
+namespace VioletWaves\Excel\Exceptions;
 
 use Throwable;
 

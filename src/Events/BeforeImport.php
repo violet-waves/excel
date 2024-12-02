@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace VioletWaves\Excel\Events;
 
-use Maatwebsite\Excel\Reader;
+use VioletWaves\Excel\Reader;
 
 class BeforeImport extends Event
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace VioletWaves\Excel\Mixins;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithHeadings;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromCollection;
+use VioletWaves\Excel\Concerns\WithHeadings;
 
 class StoreCollectionMixin
 {

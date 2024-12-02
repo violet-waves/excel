@@ -1,25 +1,25 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
 use Illuminate\Foundation\Bus\PendingDispatch;
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Concerns\WithCustomQuerySize;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Jobs\AppendPaginatedToSheet;
-use Maatwebsite\Excel\Jobs\AppendQueryToSheet;
-use Maatwebsite\Excel\Jobs\AppendViewToSheet;
-use Maatwebsite\Excel\Jobs\CloseSheet;
-use Maatwebsite\Excel\Jobs\QueueExport;
-use Maatwebsite\Excel\Jobs\StoreQueuedExport;
+use VioletWaves\Excel\Concerns\FromCollection;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\FromView;
+use VioletWaves\Excel\Concerns\WithCustomChunkSize;
+use VioletWaves\Excel\Concerns\WithCustomQuerySize;
+use VioletWaves\Excel\Concerns\WithMultipleSheets;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Files\TemporaryFileFactory;
+use VioletWaves\Excel\Jobs\AppendDataToSheet;
+use VioletWaves\Excel\Jobs\AppendPaginatedToSheet;
+use VioletWaves\Excel\Jobs\AppendQueryToSheet;
+use VioletWaves\Excel\Jobs\AppendViewToSheet;
+use VioletWaves\Excel\Jobs\CloseSheet;
+use VioletWaves\Excel\Jobs\QueueExport;
+use VioletWaves\Excel\Jobs\StoreQueuedExport;
 use Traversable;
 
 class QueuedWriter

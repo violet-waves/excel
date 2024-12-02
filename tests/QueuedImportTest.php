@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
 use Illuminate\Foundation\Bus\PendingDispatch;
 use Illuminate\Queue\Events\JobExceptionOccurred;
@@ -8,17 +8,17 @@ use Illuminate\Queue\Events\JobProcessed;
 use Illuminate\Queue\Events\JobProcessing;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\Queue;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Files\RemoteTemporaryFile;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\AfterImportJob;
-use Maatwebsite\Excel\Jobs\ReadChunk;
-use Maatwebsite\Excel\SettingsProvider;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueImportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedImport;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedImportWithFailure;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedImportWithMiddleware;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedImportWithRetryUntil;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Files\RemoteTemporaryFile;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Jobs\AfterImportJob;
+use VioletWaves\Excel\Jobs\ReadChunk;
+use VioletWaves\Excel\SettingsProvider;
+use VioletWaves\Excel\Tests\Data\Stubs\AfterQueueImportJob;
+use VioletWaves\Excel\Tests\Data\Stubs\QueuedImport;
+use VioletWaves\Excel\Tests\Data\Stubs\QueuedImportWithFailure;
+use VioletWaves\Excel\Tests\Data\Stubs\QueuedImportWithMiddleware;
+use VioletWaves\Excel\Tests\Data\Stubs\QueuedImportWithRetryUntil;
 use Throwable;
 
 class QueuedImportTest extends TestCase

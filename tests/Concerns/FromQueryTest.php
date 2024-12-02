@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromGroupUsersQueuedQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromNestedArraysQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromNonEloquentQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExportWithEagerLoad;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExportWithPrepareRows;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersScoutExport;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\Group;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\Data\Stubs\FromGroupUsersQueuedQueryExport;
+use VioletWaves\Excel\Tests\Data\Stubs\FromNestedArraysQueryExport;
+use VioletWaves\Excel\Tests\Data\Stubs\FromNonEloquentQueryExport;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExport;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExportWithEagerLoad;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExportWithPrepareRows;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersScoutExport;
+use VioletWaves\Excel\Tests\TestCase;
 
 class FromQueryTest extends TestCase
 {

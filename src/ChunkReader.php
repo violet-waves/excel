@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace VioletWaves\Excel;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Container\Container;
@@ -9,16 +9,16 @@ use Illuminate\Foundation\Bus\PendingDispatch;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\Jobs\SyncJob;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\ShouldQueueWithoutChain;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithLimit;
-use Maatwebsite\Excel\Concerns\WithProgressBar;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Imports\HeadingRowExtractor;
-use Maatwebsite\Excel\Jobs\AfterImportJob;
-use Maatwebsite\Excel\Jobs\QueueImport;
-use Maatwebsite\Excel\Jobs\ReadChunk;
+use VioletWaves\Excel\Concerns\ShouldQueueWithoutChain;
+use VioletWaves\Excel\Concerns\WithChunkReading;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Concerns\WithLimit;
+use VioletWaves\Excel\Concerns\WithProgressBar;
+use VioletWaves\Excel\Files\TemporaryFile;
+use VioletWaves\Excel\Imports\HeadingRowExtractor;
+use VioletWaves\Excel\Jobs\AfterImportJob;
+use VioletWaves\Excel\Jobs\QueueImport;
+use VioletWaves\Excel\Jobs\ReadChunk;
 use Throwable;
 
 class ChunkReader

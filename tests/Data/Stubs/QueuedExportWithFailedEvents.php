@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
 use Exception;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Events\BeforeExport;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Concerns\WithMultipleSheets;
+use VioletWaves\Excel\Events\BeforeExport;
 use PHPUnit\Framework\Assert;
 use Throwable;
 

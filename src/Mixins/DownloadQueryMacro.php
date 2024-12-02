@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace VioletWaves\Excel\Mixins;
 
 use Illuminate\Database\Eloquent\Builder;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\WithHeadings;
-use Maatwebsite\Excel\Sheet;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromQuery;
+use VioletWaves\Excel\Concerns\WithHeadings;
+use VioletWaves\Excel\Sheet;
 
 class DownloadQueryMacro
 {

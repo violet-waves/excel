@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\BeforeSheet;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\WithEvents;
+use VioletWaves\Excel\Events\AfterImport;
+use VioletWaves\Excel\Events\AfterSheet;
+use VioletWaves\Excel\Events\BeforeImport;
+use VioletWaves\Excel\Events\BeforeSheet;
 
 class ImportWithEvents implements WithEvents
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Middleware;
+namespace VioletWaves\Excel\Middleware;
 
 abstract class CellMiddleware
 {

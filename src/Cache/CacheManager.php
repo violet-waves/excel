@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Cache;
+namespace VioletWaves\Excel\Cache;
 
 use Composer\InstalledVersions;
 use Composer\Semver\VersionParser;

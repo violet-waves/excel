@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace VioletWaves\Excel\Mixins;
 
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithHeadingRow;
 
 class ImportMacro
 {

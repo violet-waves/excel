@@ -1,22 +1,22 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Validation\Rule;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\OnEachRow;
-use Maatwebsite\Excel\Concerns\SkipsFailures;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Row;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Validators\Failure;
+use VioletWaves\Excel\Concerns\Importable;
+use VioletWaves\Excel\Concerns\OnEachRow;
+use VioletWaves\Excel\Concerns\SkipsFailures;
+use VioletWaves\Excel\Concerns\SkipsOnFailure;
+use VioletWaves\Excel\Concerns\ToCollection;
+use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithBatchInserts;
+use VioletWaves\Excel\Concerns\WithValidation;
+use VioletWaves\Excel\Row;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\TestCase;
+use VioletWaves\Excel\Validators\Failure;
 use PHPUnit\Framework\Assert;
 
 class SkipsOnFailureTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace VioletWaves\Excel\Events;
 
-use Maatwebsite\Excel\Imports\ModelManager;
+use VioletWaves\Excel\Imports\ModelManager;
 
 class AfterBatch extends Event
 {

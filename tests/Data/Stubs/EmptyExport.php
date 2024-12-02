@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\Exportable;
 
 class EmptyExport
 {

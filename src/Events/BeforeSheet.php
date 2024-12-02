@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace VioletWaves\Excel\Events;
 
-use Maatwebsite\Excel\Sheet;
+use VioletWaves\Excel\Sheet;
 
 class BeforeSheet extends Event
 {

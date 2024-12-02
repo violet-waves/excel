@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Validators;
+namespace VioletWaves\Excel\Validators;
 
 use Illuminate\Contracts\Support\Arrayable;
 use JsonSerializable;

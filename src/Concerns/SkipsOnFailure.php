@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace VioletWaves\Excel\Concerns;
 
-use Maatwebsite\Excel\Validators\Failure;
+use VioletWaves\Excel\Validators\Failure;
 
 interface SkipsOnFailure
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromArray;
-use Maatwebsite\Excel\Concerns\WithStyles;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\FromArray;
+use VioletWaves\Excel\Concerns\WithStyles;
+use VioletWaves\Excel\Tests\TestCase;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 class WithStylesTest extends TestCase

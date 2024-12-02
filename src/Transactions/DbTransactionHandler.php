@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Transactions;
+namespace VioletWaves\Excel\Transactions;
 
 use Illuminate\Database\ConnectionInterface;
 

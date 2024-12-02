@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace VioletWaves\Excel\Events;
 
 /**
  * @internal

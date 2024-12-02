@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Mixins;
+namespace VioletWaves\Excel\Tests\Mixins;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Excel;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Excel;
+use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
+use VioletWaves\Excel\Tests\TestCase;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class DownloadCollectionTest extends TestCase

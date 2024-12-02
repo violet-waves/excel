@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace VioletWaves\Excel\Imports;
 
-use Maatwebsite\Excel\Concerns\WithLimit;
+use VioletWaves\Excel\Concerns\WithLimit;
 
 class EndRowFinder
 {

@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use DummyFullModelClass;
-use Maatwebsite\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\ToModel;
 
 class DummyClass implements ToModel
 {

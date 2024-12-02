@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs\Middleware;
+namespace VioletWaves\Excel\Jobs\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Translation\HasLocalePreference;

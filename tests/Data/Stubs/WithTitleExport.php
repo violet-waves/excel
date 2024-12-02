@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace VioletWaves\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithTitle;
+use VioletWaves\Excel\Concerns\Exportable;
+use VioletWaves\Excel\Concerns\WithTitle;
 
 class WithTitleExport implements WithTitle
 {

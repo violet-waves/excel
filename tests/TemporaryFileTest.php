@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace VioletWaves\Excel\Tests;
 
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Tests\Helpers\FileHelper;
+use VioletWaves\Excel\Files\TemporaryFileFactory;
+use VioletWaves\Excel\Tests\Helpers\FileHelper;
 
 class TemporaryFileTest extends TestCase
 {

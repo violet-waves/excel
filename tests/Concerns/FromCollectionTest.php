@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace VioletWaves\Excel\Tests\Concerns;
 
 use Illuminate\Foundation\Bus\PendingDispatch;
-use Maatwebsite\Excel\Tests\Data\Stubs\EloquentLazyCollectionExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\EloquentLazyCollectionQueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
-use Maatwebsite\Excel\Tests\TestCase;
+use VioletWaves\Excel\Tests\Data\Stubs\EloquentLazyCollectionExport;
+use VioletWaves\Excel\Tests\Data\Stubs\EloquentLazyCollectionQueuedExport;
+use VioletWaves\Excel\Tests\Data\Stubs\QueuedExport;
+use VioletWaves\Excel\Tests\Data\Stubs\SheetWith100Rows;
+use VioletWaves\Excel\Tests\TestCase;
 
 class FromCollectionTest extends TestCase
 {

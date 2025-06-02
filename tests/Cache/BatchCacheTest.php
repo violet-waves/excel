@@ -241,7 +241,7 @@ class BatchCacheTest extends TestCase
      * @param  int|null  $memoryLimit
      * @return CacheInterface
      */
-    private function givenCache(array $memory = [], array $persisted = [], int $memoryLimit = null): CacheInterface
+    private function givenCache(array $memory = [], array $persisted = [], $memoryLimit = null): CacheInterface
     {
         config()->set('excel.cache.batch.memory_limit', $memoryLimit ?: 60000);
 

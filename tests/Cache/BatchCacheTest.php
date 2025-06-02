@@ -15,6 +15,7 @@ use Maatwebsite\Excel\Cache\CacheManager;
 use Maatwebsite\Excel\Cache\MemoryCache;
 use Maatwebsite\Excel\Tests\TestCase;
 use Psr\SimpleCache\CacheInterface;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class BatchCacheTest extends TestCase
 {
@@ -167,6 +168,7 @@ class BatchCacheTest extends TestCase
     /**
      * @dataProvider defaultTTLDataProvider
      */
+    #[DataProvider('defaultTTLDataProvider')]
     public function test_it_writes_to_cache_with_default_ttl($defaultTTL, $receivedAs)
     {
         config()->set('excel.cache.default_ttl', $defaultTTL);

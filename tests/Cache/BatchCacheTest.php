@@ -14,8 +14,8 @@ use Maatwebsite\Excel\Cache\BatchCacheDeprecated;
 use Maatwebsite\Excel\Cache\CacheManager;
 use Maatwebsite\Excel\Cache\MemoryCache;
 use Maatwebsite\Excel\Tests\TestCase;
-use Psr\SimpleCache\CacheInterface;
 use PHPUnit\Framework\Attributes\DataProvider;
+use Psr\SimpleCache\CacheInterface;
 
 class BatchCacheTest extends TestCase
 {

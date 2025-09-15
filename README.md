@@ -100,6 +100,4 @@ Versions will be supported for a limited amount of time.
 
 | Version | Laravel Version | Php Version | Support |
 |---- |----|----|----|
-| 2.1 | <=5.6 | <=7.0 | Unsupported since 15-5-2018 |
-| 3.0 | ^5.5 |  ^7.0 | Unsupported since 31-12-2018 |
-| 3.1 | >=5.8 \| <=11.x |  ^7.2 \| ^8.0 | New features |
+| 3.4 | >=10 \| <=12.x | ^8.2 | New features |

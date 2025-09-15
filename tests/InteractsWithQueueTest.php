@@ -6,6 +6,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use VioletWaves\Excel\Jobs\AppendDataToSheet;
 use VioletWaves\Excel\Jobs\AppendQueryToSheet;
 use VioletWaves\Excel\Jobs\AppendViewToSheet;
+use VioletWaves\Excel\Jobs\QueueExport;
 use VioletWaves\Excel\Jobs\ReadChunk;
 
 class InteractsWithQueueTest extends TestCase
@@ -36,5 +37,10 @@ class InteractsWithQueueTest extends TestCase
     public function test_append_view_to_sheet_job_can_interact_with_queue()
     {
         $this->assertContains(InteractsWithQueue::class, class_uses(AppendViewToSheet::class));
+    }
+
+    public function test_queue_export_job_can_interact_with_queue()
+    {
+        $this->assertContains(InteractsWithQueue::class, class_uses(QueueExport::class));
     }
 }

@@ -11,6 +11,7 @@ use VioletWaves\Excel\Tests\Data\Stubs\FromNonEloquentQueryExport;
 use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExport;
 use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExportWithEagerLoad;
 use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryExportWithPrepareRows;
+use VioletWaves\Excel\Tests\Data\Stubs\FromUsersQueryWithJoinExport;
 use VioletWaves\Excel\Tests\Data\Stubs\FromUsersScoutExport;
 use VioletWaves\Excel\Tests\TestCase;
 
@@ -55,6 +56,23 @@ class FromQueryTest extends TestCase
         $contents = $this->readAsArray(__DIR__ . '/../Data/Disks/Local/from-query-store.xlsx', 'Xlsx');
 
         $allUsers = $export->query()->get()->map(function (User $user) {
+            return array_values($user->toArray());
+        })->toArray();
+
+        $this->assertEquals($allUsers, $contents);
+    }
+
+    public function test_can_export_from_query_with_join()
+    {
+        $export = new FromUsersQueryWithJoinExport();
+
+        $response = $export->store('from-query-store.xlsx');
+
+        $this->assertTrue($response);
+
+        $contents = $this->readAsArray(__DIR__ . '/../Data/Disks/Local/from-query-store.xlsx', 'Xlsx');
+
+        $allUsers = $export->query->get()->map(function (User $user) {
             return array_values($user->toArray());
         })->toArray();
 

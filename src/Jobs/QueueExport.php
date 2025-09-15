@@ -4,6 +4,7 @@ namespace VioletWaves\Excel\Jobs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use Illuminate\Queue\InteractsWithQueue;
 use VioletWaves\Excel\Concerns\WithMultipleSheets;
 use VioletWaves\Excel\Exceptions\NoSheetsFoundException;
 use VioletWaves\Excel\Files\TemporaryFile;
@@ -13,7 +14,7 @@ use Throwable;
 
 class QueueExport implements ShouldQueue
 {
-    use ExtendedQueueable, Dispatchable;
+    use ExtendedQueueable, Dispatchable, InteractsWithQueue;
 
     /**
      * @var object

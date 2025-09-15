@@ -58,7 +58,7 @@ class SkipsOnFailureTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['patrick@maatwebsite.nl']),
+                    '1' => Rule::in(['meet@violetwaves.in']),
                 ];
             }
 
@@ -88,7 +88,7 @@ class SkipsOnFailureTest extends TestCase
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         // Should have skipped inserting
@@ -124,7 +124,7 @@ class SkipsOnFailureTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['patrick@maatwebsite.nl']),
+                    '1' => Rule::in(['meet@violetwaves.in']),
                 ];
             }
 
@@ -157,7 +157,7 @@ class SkipsOnFailureTest extends TestCase
 
         // Shouldn't have rollbacked/skipped the rest of the batch.
         $this->assertDatabaseHas('users', [
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         // Should have skipped inserting
@@ -191,7 +191,7 @@ class SkipsOnFailureTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['patrick@maatwebsite.nl']),
+                    '1' => Rule::in(['meet@violetwaves.in']),
                 ];
             }
         };
@@ -209,7 +209,7 @@ class SkipsOnFailureTest extends TestCase
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         // Should have skipped inserting
@@ -245,7 +245,7 @@ class SkipsOnFailureTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['patrick@maatwebsite.nl']),
+                    '1' => Rule::in(['meet@violetwaves.in']),
                 ];
             }
         };
@@ -257,7 +257,7 @@ class SkipsOnFailureTest extends TestCase
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         // Should have skipped inserting
@@ -293,7 +293,7 @@ class SkipsOnFailureTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['patrick@maatwebsite.nl']),
+                    '1' => Rule::in(['meet@violetwaves.in']),
                 ];
             }
         };
@@ -305,7 +305,7 @@ class SkipsOnFailureTest extends TestCase
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         // Should have skipped inserting

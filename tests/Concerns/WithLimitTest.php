@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use VioletWaves\Excel\Concerns\Importable;
 use VioletWaves\Excel\Concerns\ToArray;
 use VioletWaves\Excel\Concerns\ToModel;
+use VioletWaves\Excel\Concerns\WithHeadingRow;
 use VioletWaves\Excel\Concerns\WithLimit;
 use VioletWaves\Excel\Concerns\WithStartRow;
 use VioletWaves\Excel\Tests\Data\Stubs\Database\User;
@@ -64,7 +65,7 @@ class WithLimitTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         $this->assertDatabaseMissing('users', [
@@ -87,7 +88,7 @@ class WithLimitTest extends TestCase
                 Assert::assertEquals([
                     [
                         'Patrick Brouwers',
-                        'patrick@maatwebsite.nl',
+                        'meet@violetwaves.in',
                     ],
                 ], $array);
             }
@@ -102,6 +103,72 @@ class WithLimitTest extends TestCase
         };
 
         $import->import('import-users.xlsx');
+    }
+
+    public function test_can_import_single_with_heading_row()
+    {
+        $import = new class implements ToArray, WithLimit, WithHeadingRow
+        {
+            use Importable;
+
+            /**
+             * @param  array  $array
+             */
+            public function array(array $array)
+            {
+                Assert::assertEquals([
+                    [
+                        'name'  => 'Patrick Brouwers',
+                        'email' => 'meet@violetwaves.in',
+                    ],
+                ], $array);
+            }
+
+            /**
+             * @return int
+             */
+            public function limit(): int
+            {
+                return 1;
+            }
+        };
+
+        $import->import('import-users-with-headings.xlsx');
+    }
+
+    public function test_can_import_multiple_with_heading_row()
+    {
+        $import = new class implements ToArray, WithLimit, WithHeadingRow
+        {
+            use Importable;
+
+            /**
+             * @param  array  $array
+             */
+            public function array(array $array)
+            {
+                Assert::assertEquals([
+                    [
+                        'name'  => 'Patrick Brouwers',
+                        'email' => 'meet@violetwaves.in',
+                    ],
+                    [
+                        'name'  => 'Taylor Otwell',
+                        'email' => 'taylor@laravel.com',
+                    ],
+                ], $array);
+            }
+
+            /**
+             * @return int
+             */
+            public function limit(): int
+            {
+                return 2;
+            }
+        };
+
+        $import->import('import-users-with-headings.xlsx');
     }
 
     public function test_can_set_limit_bigger_than_row_size()

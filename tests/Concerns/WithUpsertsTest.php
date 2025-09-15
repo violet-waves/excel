@@ -33,7 +33,7 @@ class WithUpsertsTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Banana',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 
@@ -80,7 +80,7 @@ class WithUpsertsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Patrick Brouwers',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'secret',
         ]);
 
@@ -97,7 +97,7 @@ class WithUpsertsTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Potato',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 
@@ -136,7 +136,7 @@ class WithUpsertsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Patrick Brouwers',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'secret',
         ]);
 
@@ -153,7 +153,7 @@ class WithUpsertsTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Banana',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 
@@ -208,7 +208,7 @@ class WithUpsertsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Patrick Brouwers',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 
@@ -225,7 +225,7 @@ class WithUpsertsTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Potato',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 
@@ -272,7 +272,7 @@ class WithUpsertsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Patrick Brouwers',
-            'email'     => 'patrick@maatwebsite.nl',
+            'email'     => 'meet@violetwaves.in',
             'password'  => 'password',
         ]);
 

@@ -28,7 +28,7 @@ class ImportMacroTest extends TestCase
 
         $this->assertCount(2, User::all());
         $this->assertEquals([
-            'patrick@maatwebsite.nl',
+            'meet@violetwaves.in',
             'taylor@laravel.com',
         ], User::query()->pluck('email')->all());
     }

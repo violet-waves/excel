@@ -55,7 +55,7 @@ class WithStartRowTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         $this->assertDatabaseHas('users', [
@@ -78,7 +78,7 @@ class WithStartRowTest extends TestCase
                 Assert::assertEquals([
                     [
                         'Patrick Brouwers',
-                        'patrick@maatwebsite.nl',
+                        'meet@violetwaves.in',
                     ],
                     [
                         'Taylor Otwell',

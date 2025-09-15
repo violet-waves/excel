@@ -49,7 +49,7 @@ class WithHeadingRowTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         $this->assertDatabaseHas('users', [
@@ -90,7 +90,7 @@ class WithHeadingRowTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'patrick@maatwebsite.nl',
+            'email' => 'meet@violetwaves.in',
         ]);
 
         $this->assertDatabaseHas('users', [
@@ -113,7 +113,7 @@ class WithHeadingRowTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'  => 'Patrick Brouwers',
-                        'email' => 'patrick@maatwebsite.nl',
+                        'email' => 'meet@violetwaves.in',
                     ],
                     [
                         'name'  => 'Taylor Otwell',

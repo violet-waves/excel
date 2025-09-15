@@ -65,7 +65,7 @@ class WithLimitTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         $this->assertDatabaseMissing('users', [
@@ -88,7 +88,7 @@ class WithLimitTest extends TestCase
                 Assert::assertEquals([
                     [
                         'Patrick Brouwers',
-                        'meet@violetwaves.in',
+                        'patrick@maatwebsite.nl',
                     ],
                 ], $array);
             }
@@ -119,7 +119,7 @@ class WithLimitTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'  => 'Patrick Brouwers',
-                        'email' => 'meet@violetwaves.in',
+                        'email' => 'patrick@maatwebsite.nl',
                     ],
                 ], $array);
             }
@@ -150,7 +150,7 @@ class WithLimitTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'  => 'Patrick Brouwers',
-                        'email' => 'meet@violetwaves.in',
+                        'email' => 'patrick@maatwebsite.nl',
                     ],
                     [
                         'name'  => 'Taylor Otwell',

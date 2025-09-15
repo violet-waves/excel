@@ -27,7 +27,7 @@ class WithSkipDuplicatesTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Banana',
-            'email'     => 'meet@violetwaves.in',
+            'email'     => 'patrick@maatwebsite.nl',
             'password'  => 'password',
         ]);
 
@@ -74,7 +74,7 @@ class WithSkipDuplicatesTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Funny Banana',
-            'email'     => 'meet@violetwaves.in',
+            'email'     => 'patrick@maatwebsite.nl',
             'password'  => 'password',
         ]);
 
@@ -91,7 +91,7 @@ class WithSkipDuplicatesTest extends TestCase
     {
         User::create([
             'name'      => 'Funny Potato',
-            'email'     => 'meet@violetwaves.in',
+            'email'     => 'patrick@maatwebsite.nl',
             'password'  => 'password',
         ]);
 
@@ -130,7 +130,7 @@ class WithSkipDuplicatesTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'      => 'Funny Potato',
-            'email'     => 'meet@violetwaves.in',
+            'email'     => 'patrick@maatwebsite.nl',
             'password'  => 'password',
         ]);
 

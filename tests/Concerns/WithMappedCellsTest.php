@@ -47,7 +47,7 @@ class WithMappedCellsTest extends TestCase
             {
                 Assert::assertEquals([
                     'name'  => 'Patrick Brouwers',
-                    'email' => 'meet@violetwaves.in',
+                    'email' => 'patrick@maatwebsite.nl',
                 ], $array);
             }
         };
@@ -86,7 +86,7 @@ class WithMappedCellsTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'  => 'Patrick Brouwers',
-                        'email' => 'meet@violetwaves.in',
+                        'email' => 'patrick@maatwebsite.nl',
                     ],
                     [
                         'name'  => 'Typingbeaver',
@@ -124,7 +124,7 @@ class WithMappedCellsTest extends TestCase
             {
                 Assert::assertEquals([
                     'name'  => 'Patrick Brouwers',
-                    'email' => 'meet@violetwaves.in',
+                    'email' => 'patrick@maatwebsite.nl',
                 ], $array);
 
                 $array['password'] = Str::random();
@@ -137,7 +137,7 @@ class WithMappedCellsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
     }
 }

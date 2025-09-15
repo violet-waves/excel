@@ -57,7 +57,7 @@ class SkipsOnErrorTest extends TestCase
             public function onError(Throwable $e)
             {
                 Assert::assertInstanceOf(QueryException::class, $e);
-                Assert::stringContains($e->getMessage(), 'Duplicate entry \'meet@violetwaves.in\'');
+                Assert::stringContains($e->getMessage(), 'Duplicate entry \'patrick@maatwebsite.nl\'');
 
                 $this->errors++;
             }
@@ -69,7 +69,7 @@ class SkipsOnErrorTest extends TestCase
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting
@@ -106,11 +106,11 @@ class SkipsOnErrorTest extends TestCase
         $e = $import->errors()->first();
 
         $this->assertInstanceOf(QueryException::class, $e);
-        $this->stringContains($e->getMessage(), 'Duplicate entry \'meet@violetwaves.in\'');
+        $this->stringContains($e->getMessage(), 'Duplicate entry \'patrick@maatwebsite.nl\'');
 
         // Shouldn't have rollbacked other imported rows.
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting
@@ -151,7 +151,7 @@ class SkipsOnErrorTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['meet@violetwaves.in']),
+                    '1' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
 
@@ -174,7 +174,7 @@ class SkipsOnErrorTest extends TestCase
 
         // Should have inserted the valid row
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting the invalid row
@@ -214,7 +214,7 @@ class SkipsOnErrorTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['meet@violetwaves.in']),
+                    '1' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -232,7 +232,7 @@ class SkipsOnErrorTest extends TestCase
 
         // Should have inserted the valid row
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting the invalid row
@@ -290,7 +290,7 @@ class SkipsOnErrorTest extends TestCase
 
         // Should have inserted the valid row
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting the row that threw exception
@@ -342,7 +342,7 @@ class SkipsOnErrorTest extends TestCase
 
         // Should have inserted the valid row
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         // Should have skipped inserting the row that threw exception

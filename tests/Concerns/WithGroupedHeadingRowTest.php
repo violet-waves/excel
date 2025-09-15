@@ -42,7 +42,7 @@ class WithGroupedHeadingRowTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'    => 'Patrick Brouwers',
-                        'email'   => 'meet@violetwaves.in',
+                        'email'   => 'patrick@maatwebsite.nl',
                         'options' => [
                             'laravel',
                             'excel',
@@ -70,7 +70,7 @@ class WithGroupedHeadingRowTest extends TestCase
                 Assert::assertEquals(
                     [
                         'name'    => 'Patrick Brouwers',
-                        'email'   => 'meet@violetwaves.in',
+                        'email'   => 'patrick@maatwebsite.nl',
                         'options' => [
                             'laravel',
                             'excel',
@@ -100,7 +100,7 @@ class WithGroupedHeadingRowTest extends TestCase
                 Assert::assertEquals([
                     [
                         'name'    => 'Patrick Brouwers',
-                        'email'   => 'meet@violetwaves.in',
+                        'email'   => 'patrick@maatwebsite.nl',
                         'options' => [
                             'laravel',
                             'excel',
@@ -140,7 +140,7 @@ class WithGroupedHeadingRowTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'    => 'Patrick Brouwers',
-            'email'   => 'meet@violetwaves.in',
+            'email'   => 'patrick@maatwebsite.nl',
             'options' => '["laravel","excel"]',
         ]);
     }

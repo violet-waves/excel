@@ -59,7 +59,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['meet@violetwaves.in']),
+                    '1' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -106,7 +106,7 @@ class WithValidationTest extends TestCase
             {
                 return [
                     '1' => function ($attribute, $value, $onFail) {
-                        if ($value !== 'meet@violetwaves.in') {
+                        if ($value !== 'patrick@maatwebsite.nl') {
                             $onFail(sprintf('Value in column 1 is not an allowed e-mail.'));
                         }
                     },
@@ -164,7 +164,7 @@ class WithValidationTest extends TestCase
                          */
                         public function passes($attribute, $value)
                         {
-                            return $value === 'meet@violetwaves.in';
+                            return $value === 'patrick@maatwebsite.nl';
                         }
 
                         /**
@@ -222,7 +222,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'conditional_required_column' => 'required_if:1,meet@violetwaves.in',
+                    'conditional_required_column' => 'required_if:1,patrick@maatwebsite.nl',
                 ];
             }
         };
@@ -231,7 +231,7 @@ class WithValidationTest extends TestCase
             $import->import('import-users.xlsx');
         } catch (ValidationException $e) {
             $this->validateFailure($e, 1, 'conditional_required_column', [
-                'The conditional_required_column field is required when 1.1 is meet@violetwaves.in.',
+                'The conditional_required_column field is required when 1.1 is patrick@maatwebsite.nl.',
             ]);
         }
 
@@ -263,7 +263,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'conditional_required_unless_column' => 'required_unless:1,meet@violetwaves.in',
+                    'conditional_required_unless_column' => 'required_unless:1,patrick@maatwebsite.nl',
                 ];
             }
         };
@@ -272,7 +272,7 @@ class WithValidationTest extends TestCase
             $import->import('import-users.xlsx');
         } catch (ValidationException $e) {
             $this->validateFailure($e, 2, 'conditional_required_unless_column', [
-                'The conditional_required_unless_column field is required unless 2.1 is in meet@violetwaves.in.',
+                'The conditional_required_unless_column field is required unless 2.1 is in patrick@maatwebsite.nl.',
             ]);
         }
 
@@ -312,7 +312,7 @@ class WithValidationTest extends TestCase
         $import->import('import-users.xlsx');
 
         $this->assertDatabaseHas('users', [
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         try {
@@ -351,7 +351,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['meet@violetwaves.in']),
+                    '1' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
 
@@ -450,7 +450,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    '1' => Rule::in(['meet@violetwaves.in']),
+                    '1' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
 
@@ -501,7 +501,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'email' => Rule::in(['meet@violetwaves.in']),
+                    'email' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -609,7 +609,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'email' => Rule::in(['meet@violetwaves.in']),
+                    'email' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -652,7 +652,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'email' => Rule::in(['meet@violetwaves.in']),
+                    'email' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -685,7 +685,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'email' => Rule::in(['meet@violetwaves.in']),
+                    'email' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -718,7 +718,7 @@ class WithValidationTest extends TestCase
             public function rules(): array
             {
                 return [
-                    'email' => Rule::in(['meet@violetwaves.in']),
+                    'email' => Rule::in(['patrick@maatwebsite.nl']),
                 ];
             }
         };
@@ -771,7 +771,7 @@ class WithValidationTest extends TestCase
              */
             public function withValidator($validator)
             {
-                $validator->sometimes('*.1', Rule::in(['meet@violetwaves.in']), function () {
+                $validator->sometimes('*.1', Rule::in(['patrick@maatwebsite.nl']), function () {
                     return true;
                 });
             }

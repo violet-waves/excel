@@ -61,7 +61,7 @@ class WithBatchInsertsTest extends TestCase
 
         $this->assertDatabaseHas('users', [
             'name'  => 'Patrick Brouwers',
-            'email' => 'meet@violetwaves.in',
+            'email' => 'patrick@maatwebsite.nl',
         ]);
 
         $this->assertDatabaseHas('users', [
